@@ -1,6 +1,6 @@
 {
-  "homepage": "https://jhaybz29.github.io/jv-myportfolio/",
   "name": "jv-myportfolio",
+  "homepage": "https://jhaybz29.github.io/jv-myportfolio/",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start"
   },
   "dependencies": {
     "react": "^19.2.8",
